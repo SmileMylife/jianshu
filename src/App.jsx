@@ -5,8 +5,8 @@ import { GlobalStyle } from "./style";
 function App() {
   return (
     <div className="App">
-        <GlobalStyle/>
-        <Header/>
+        <GlobalStyle />
+        <Header />
     </div>
   );
 }

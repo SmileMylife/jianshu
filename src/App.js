@@ -1,11 +1,12 @@
 import React from 'react';
-import Test from "./Test";
+import Header from "./common/header";
+import { GlobalStyle } from "./style";
 
 function App() {
   return (
     <div className="App">
-      <p className="test_css">hahaha</p>
-      <Test />
+        <GlobalStyle/>
+        <Header/>
     </div>
   );
 }
